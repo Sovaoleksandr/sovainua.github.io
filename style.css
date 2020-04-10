@@ -10,7 +10,7 @@
 	height: 100vh;
 	margin: 0 auto;
 	background: rgb(189, 210, 220);
-	border-radius: 3%;
+	border-radius: 1%;
 	display: grid;
 	grid-gap: 2.5em 2em;
 	font-family: 'Work Sans', arial;
@@ -49,4 +49,15 @@ h3{
 	width: 10px;
 	height: 10px;
 	margin: 0.1em;
+}
+@media (max-width: 900px){
+	.container{
+		grid-template: 1fr 1fr 1fr / 1fr 1fr;
+	}
+}
+@media (max-width: 600px){
+	.container{
+		height: 100%;
+		grid-template: 50vh 50vh 50vh 50vh 50vh 50vh / 1fr;
+	}
 }
