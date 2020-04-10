@@ -50,12 +50,12 @@ h3{
 	height: 10px;
 	margin: 0.1em;
 }
-@media (max-width: 900px){
+@media screen and (max-width: 900px){
 	.container{
 		grid-template: 1fr 1fr 1fr / 1fr 1fr;
 	}
 }
-@media (max-width: 600px){
+@media screen and (max-width: 600px){
 	.container{
 		height: 100%;
 		grid-template: 50vh 50vh 50vh 50vh 50vh 50vh / 1fr;
